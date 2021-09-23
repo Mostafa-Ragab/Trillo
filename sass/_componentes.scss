@@ -14,17 +14,18 @@
   align-items: center;
   justify-content: center;
 
-  @media only screen and (max-width: $bp-smallest) {
-    order: 1;
-    flex: 0 0 100%;
-    background-color: var(--color-grey-light-2);
-  }
+  //   @media only screen and (max-width: $bp-smallest) {
+  //     order: 1;
+  //     flex: 0 0 100%;
+  //     background-color: var(--color-grey-light-2);
+  //   }
 
   &__input {
-    font-family: inherit;
     font-size: inherit;
+    font-family: inherit;
     color: inherit;
     background-color: var(--color-grey-light-2);
+
     border: none;
     padding: 0.7rem 2rem;
     border-radius: 100px;
@@ -120,3 +121,5 @@
     margin-right: 1rem;
   }
 }
+
+////////////////////////////////////////
